@@ -1,0 +1,29 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Farewell, hope I was of help! :)"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": ["who are you?", "what are you"],
+         "responses": ["I am an AI Chatbot, my work is to talk to you after analyzing what you have asked me and give you information about us."], 
+         	"context_set": ""
+        },
+        {"tag": "time",
+         "patterns": ["what are your timings?", "when are you open?"],
+         "responses": ["The visiting and meeting hours for the office space are from 9 AM to 6 PM"], 
+        "context_set": ""
+        },
+        { "tag": "location",
+         "patterns": ["where are you located?", "where is your office?"],
+         "responses": ["The office is located at the 3rd floor of the building."],
+         "context_set": ""
+        }
+
+   ]
+}

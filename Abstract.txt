@@ -1,0 +1,4 @@
+A Conversational Chatbot is a peer-to-peer responsive agent. 
+So, in this project we have used a combination of NLP and Deep Learning to train the agent to answers the questions asked by the user. 
+The tools which we have used are tensorflow to build the neural networks, nltk to process the text and numpy for manipulating the data and converting it to array, so that we can pass it to our neural network to process the information. Finally, we have integrated entire code with Tkinter GUI where we can have an interface type front end where we can interact with our agent. 
+Note: You can fully deploy this model to cloud, by training the model with more intents/questions.
